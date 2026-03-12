@@ -112,7 +112,6 @@ foreach ($source in $FilesToRename.Keys) {
 
 Write-Host "`n✅ Files included in push:" -ForegroundColor $ColorInfo
 Write-Host "   - tests/ (needed for CI)" -ForegroundColor DarkGray
-Write-Host "   - scripts/run_local.ps1 (for prod testing)" -ForegroundColor DarkGray
 Write-Host "   - .github/workflows/ (CI/CD)" -ForegroundColor DarkGray
 Write-Host "   - All production code" -ForegroundColor DarkGray
 
