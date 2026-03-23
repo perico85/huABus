@@ -89,9 +89,9 @@ soc:
 capacity: 10
 ```
 
-<img src="images/evcc_grid.png" alt="EVCC Netzzähler Konfiguration" width="400">
-<img src="images/evcc_solar.png" alt="EVCC PV-Zähler Konfiguration" width="400">
-<img src="images/evcc_battery.png" alt="EVCC Batterie Konfiguration" width="400">
+![EVCC Netzzähler Konfiguration](images/evcc_grid.png)  
+![EVCC PV-Zähler Konfiguration](images/evcc_solar.png)  
+![EVCC Batterie Konfiguration](images/evcc_battery.png)
 
 ## Vergleich: wlcrs/huawei_solar vs. dieses Addon
 
