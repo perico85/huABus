@@ -36,16 +36,56 @@ class ConfigManager:
 
     def _load_config(self) -> None:
         """
-        Load configuration from file or environment variables.
+        Load configuration from environment variables first, then file.
+        
+        Priority:
+        1. Environment variables (HA Add-on config changes)
+        2. options.json file (persistent storage)
+        3. Default values
         """
+        # Start with file-based config if available
+        file_config = {}
         if self.config_path.exists():
-            logger.info(f"🚀 Loading configuration from {self.config_path}")
-            with open(self.config_path) as f:
-                self._config = json.load(f)
-            logger.debug(f"✅ Loaded config keys: {list(self._config.keys())}")
-        else:
-            logger.info("🔍 No config file found, loading from environment variables")
-            self._config = self._load_from_env()
+            try:
+                with open(self.config_path) as f:
+                    file_config = json.load(f)
+                logger.debug(f"✅ Base config from file: {list(file_config.keys())}")
+            except Exception as e:
+                logger.warning(f"⚠️ Failed to read config file: {e}")
+        
+        # Environment variables OVERRIDE file values
+        # This ensures HA Add-on configuration changes take effect
+        self._config = self._load_from_env()
+        
+        # Apply file values only for keys not in environment
+        # (preserves backward compatibility and file-only settings)
+        env_keys = set(self._config.keys())
+        for key, value in file_config.items():
+            if key not in env_keys or self._is_env_default(key, value):
+                if value is not None and value != "":
+                    self._config[key] = value
+        
+        logger.info(f"🚀 Configuration loaded: {len(self._config)} keys")
+        logger.debug(f"   Final keys: {list(self._config.keys())}")
+    
+    def _is_env_default(self, key: str, value: Any) -> bool:
+        """Check if environment variable has default value."""
+        # Special keys that might have real values matching defaults
+        default_checks = {
+            'poll_interval': (30, 30),
+            'status_timeout': (180, 180),
+            'modbus_port': (502, 502),
+            'mqtt_port': (1883, 1883),
+        }
+        if key in default_checks:
+            file_val, env_default = default_checks[key]
+            # If file has non-default but env shows default, prefer file
+            file_has_custom = value != file_val
+            env_has_default = self._config.get(key) == env_default
+            if file_has_custom and env_has_default:
+                logger.debug(f"   Override: {key} using file value {value} (env has default)")
+                return True
+        return False
 
     def _load_from_env(self) -> dict[str, Any]:
         """
