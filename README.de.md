@@ -5,17 +5,17 @@
 [🇬🇧 English](README.md) | 🇩🇪 **Deutsch**
 
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Add--on-41BDF5?logo=home-assistant)](https://www.home-assistant.io/)
-[![release](https://img.shields.io/github/v/release/arboeh/huABus?display_name=tag)](https://github.com/arboeh/huABus/releases/latest)
-[![Tests](https://github.com/arboeh/huABus/workflows/Tests/badge.svg)](https://github.com/arboeh/huABus/actions)
-[![codecov](https://codecov.io/gh/arboeh/huABus/branch/main/graph/badge.svg)](https://codecov.io/gh/arboeh/huABus)
-[![Security](https://img.shields.io/badge/Security-Policy-blue?logo=github)](https://github.com/arboeh/huABus/blob/main/SECURITY.md)  
-[![maintained](https://img.shields.io/maintenance/yes/2026)](https://github.com/arboeh/huABus/graphs/commit-activity)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/arboeh/huABus/blob/main/LICENSE)  
-[![aarch64](https://img.shields.io/badge/aarch64-yes-green.svg)](https://github.com/arboeh/huABus)
-[![amd64](https://img.shields.io/badge/amd64-yes-green.svg)](https://github.com/arboeh/huABus)
-[![armhf](https://img.shields.io/badge/armhf-yes-green.svg)](https://github.com/arboeh/huABus)
-[![armv7](https://img.shields.io/badge/armv7-yes-green.svg)](https://github.com/arboeh/huABus)
-[![i386](https://img.shields.io/badge/i386-yes-green.svg)](https://github.com/arboeh/huABus)
+[![release](https://img.shields.io/github/v/release/perico85/huABus?display_name=tag)](https://github.com/perico85/huABus/releases/latest)
+[![Tests](https://github.com/perico85/huABus/workflows/Tests/badge.svg)](https://github.com/perico85/huABus/actions)
+[![codecov](https://codecov.io/gh/perico85/huABus/branch/main/graph/badge.svg)](https://codecov.io/gh/perico85/huABus)
+[![Security](https://img.shields.io/badge/Security-Policy-blue?logo=github)](https://github.com/perico85/huABus/blob/main/SECURITY.md)  
+[![maintained](https://img.shields.io/maintenance/yes/2026)](https://github.com/perico85/huABus/graphs/commit-activity)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/perico85/huABus/blob/main/LICENSE)  
+[![aarch64](https://img.shields.io/badge/aarch64-yes-green.svg)](https://github.com/perico85/huABus)
+[![amd64](https://img.shields.io/badge/amd64-yes-green.svg)](https://github.com/perico85/huABus)
+[![armhf](https://img.shields.io/badge/armhf-yes-green.svg)](https://github.com/perico85/huABus)
+[![armv7](https://img.shields.io/badge/armv7-yes-green.svg)](https://github.com/perico85/huABus)
+[![i386](https://img.shields.io/badge/i386-yes-green.svg)](https://github.com/perico85/huABus)
 
 **67 essenzielle Register • 69+ Entitäten • optionaler MQTT-Heartbeat • 30s Polling**  
 **Changelog:** [CHANGELOG.md](huawei_solar_modbus_mqtt/CHANGELOG.md)
@@ -41,7 +41,7 @@
 
 ## 🚀 Schnellstart
 
-1. [![Repository hinzufügen](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Farboeh%2FhuABus)
+1. [![Repository hinzufügen](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fperico85%2FhuABus)
 2. "huABus | Huawei Solar Modbus to MQTT" installieren
 3. **Minimale Konfiguration:**
    ```yaml
@@ -151,4 +151,4 @@ Siehe [CHANGELOG.md](huawei_solar_modbus_mqtt/CHANGELOG.md) für detaillierte Re
 
 **Basiert auf:** [mjaschen/huawei-solar-modbus-to-mqtt](https://github.com/mjaschen/huawei-solar-modbus-to-mqtt)  
 **Verwendet Library:** [wlcrs/huawei-solar-lib](https://github.com/wlcrs/huawei-solar-lib)  
-**Entwickelt von:** [arboeh](https://github.com/arboeh) | **Lizenz:** MIT
+**Entwickelt von:** [perico85](https://github.com/perico85) | **Lizenz:** MIT

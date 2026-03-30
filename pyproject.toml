@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "huabus"
 dynamic = ["version"]
 description = "Huawei Solar Modbus via MQTT and Auto-Discovery"
-authors = [{ name = "arboeh", email = "arend.boehmer@web.de" }]
+authors = [{ name = "perico85", email = "arend.boehmer@web.de" }]
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.11"
@@ -43,9 +43,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/arboeh/huABus"
-Repository = "https://github.com/arboeh/huABus"
-Issues = "https://github.com/arboeh/huABus/issues"
+Homepage = "https://github.com/perico85/huABus"
+Repository = "https://github.com/perico85/huABus"
+Issues = "https://github.com/perico85/huABus/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

@@ -26,7 +26,7 @@ Liest Daten deines Huawei Wechselrichters per Modbus TCP aus und veröffentlicht
 ### 1. Installation
 
 1. Einstellungen → Addons → Addon Store⋮ (oben rechts) → Repositories
-2. Hinzufügen: `https://github.com/arboeh/huABus`
+2. Hinzufügen: `https://github.com/perico85/huABus`
 3. Installiere "huABus | Huawei Solar Modbus to MQTT"
 
 ### 2. Minimalkonfiguration
@@ -304,6 +304,6 @@ INFO - Connection restored after 47s (3 failed attempts, 2 error types)
 
 ## Support
 
-- **GitHub:** [arboeh/huABus](https://github.com/arboeh/huABus)
-- **Issues:** [GitHub Issue Templates](https://github.com/arboeh/huABus/issues/new/choose)
+- **GitHub:** [perico85/huABus](https://github.com/perico85/huABus)
+- **Issues:** [GitHub Issue Templates](https://github.com/perico85/huABus/issues/new/choose)
 - **Basierend auf:** [mjaschen/huawei-solar-modbus-to-mqtt](https://github.com/mjaschen/huawei-solar-modbus-to-mqtt)

@@ -7,7 +7,7 @@ VERSION=$(bashio::addon.version)
 # Banner IMMER anzeigen
 echo "$(date +"%Y-%m-%dT%H:%M:%S") INFO: =========================================================="
 echo "$(date +"%Y-%m-%dT%H:%M:%S") INFO:  🌞 huABus v${VERSION}"
-echo "$(date +"%Y-%m-%dT%H:%M:%S") INFO:  📦 https://github.com/arboeh/huABus"
+echo "$(date +"%Y-%m-%dT%H:%M:%S") INFO:  📦 https://github.com/perico85/huABus"
 echo "$(date +"%Y-%m-%dT%H:%M:%S") INFO: =========================================================="
 echo "$(date +"%Y-%m-%dT%H:%M:%S") INFO: >> Starting huABus - Huawei Solar Modbus MQTT Add-on..."
 

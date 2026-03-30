@@ -8,8 +8,8 @@ body:
       value: |
         ## Before submitting
 
-        - Check [Troubleshooting](https://github.com/arboeh/huABus#troubleshooting) section
-        - Search [existing issues](https://github.com/arboeh/huABus/issues)
+        - Check [Troubleshooting](https://github.com/perico85/huABus#troubleshooting) section
+        - Search [existing issues](https://github.com/perico85/huABus/issues)
         - Verify only ONE Modbus connection is active
 
   - type: textarea

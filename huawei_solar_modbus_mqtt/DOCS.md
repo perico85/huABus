@@ -26,7 +26,7 @@ Reads data from your Huawei inverter via Modbus TCP and publishes it via MQTT wi
 ### 1. Installation
 
 1. Settings → Addons → Addon Store⋮ (top right) → Repositories
-2. Add: `https://github.com/arboeh/huABus`
+2. Add: `https://github.com/perico85/huABus`
 3. Install "huABus | Huawei Solar Modbus to MQTT"
 
 ### 2. Minimal Configuration
@@ -301,6 +301,6 @@ INFO - Connection restored after 47s (3 failed attempts, 2 error types)
 
 ## Support
 
-- **GitHub:** [arboeh/huABus](https://github.com/arboeh/huABus)
-- **Issues:** [GitHub Issue Templates](https://github.com/arboeh/huABus/issues/new/choose)
+- **GitHub:** [perico85/huABus](https://github.com/perico85/huABus)
+- **Issues:** [GitHub Issue Templates](https://github.com/perico85/huABus/issues/new/choose)
 - **Based on:** [mjaschen/huawei-solar-modbus-to-mqtt](https://github.com/mjaschen/huawei-solar-modbus-to-mqtt)

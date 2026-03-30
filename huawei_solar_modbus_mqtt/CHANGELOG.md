@@ -78,7 +78,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 **Before:**
 
 ```python
-SLAVE_IDS_TO_TRY =   # Slave ID 0 caused timeouts [github](https://github.com/arboeh/huABus)
+SLAVE_IDS_TO_TRY =   # Slave ID 0 caused timeouts [github](https://github.com/perico85/huABus)
 ```
 
 **After:**

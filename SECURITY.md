@@ -10,7 +10,7 @@
 
 ### Private Disclosure (Recommended)
 
-Use GitHub's [Private Vulnerability Reporting](https://github.com/arboeh/huABus/security/advisories/new):
+Use GitHub's [Private Vulnerability Reporting](https://github.com/perico85/huABus/security/advisories/new):
 
 - ✅ Confidential until fixed
 - ✅ Tracked via Security Advisories
@@ -20,7 +20,7 @@ Use GitHub's [Private Vulnerability Reporting](https://github.com/arboeh/huABus/
 
 For non-critical issues:
 
-- Open a [GitHub Issue](https://github.com/arboeh/huABus/issues)
+- Open a [GitHub Issue](https://github.com/perico85/huABus/issues)
 - Use the Security Issue template if available
 
 ### Response Time

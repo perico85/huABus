@@ -2,7 +2,7 @@ name: huABus
 version: "1.8.4"
 slug: huawei_solar_modbus_mqtt
 description: Huawei Solar Modbus via MQTT and Auto-Discovery
-url: https://github.com/arboeh/huABus
+url: https://github.com/perico85/huABus
 arch:
   - aarch64
   - amd64
